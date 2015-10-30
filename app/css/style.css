@@ -64,7 +64,6 @@ a.rpanel:hover{ color: #fff; }*/
 	background: url('../img/header-bg.png'); 
 	height: 80px; 	
 	position: fixed;
-	margin-top: 30px;
 }
 
 #nav { width: 600px; float: center; margin-top: 20px; }
@@ -102,6 +101,19 @@ a.rpanel:hover{ color: #fff; }*/
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
  .quotes_container { width: 800px; margin: 0 auto; }
 
+ul{
+	list-style-type: none;
+	padding: 5px;
+
+}
+
+ul li a i:hover {
+ color: red;
+}
+
+i {
+	padding: 10px;
+}
 
 /*= BUTTONS
 --------------------------------------------------------*/
@@ -141,7 +153,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide2{
 	background-color: #fff;
-	color: #333333;
+	color: #00A1A8;
 	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -152,16 +164,17 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 900px;
-	padding: 170px 0 0 470px;	
+	padding: 170px 0 0 370px;	
 	background-size: cover;
 }
 
 #slide4{
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
-	padding: 200px 0;
-
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0 300px 0;
 }
 
 #slide5{
@@ -172,6 +185,27 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	color: #fff;
 	background-size: cover;
 }
+
+#slide6{
+	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+#footer-container {
+   position:fixed;
+   right:0px;
+   bottom:0px;
+   left: 0px;
+   width:10%;
+}
+.fa {
+	color: steelblue;
+}
+
 
 
 /*= FOOTER 
